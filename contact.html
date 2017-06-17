@@ -4,12 +4,76 @@
 <head>
   <meta charset="UTF-8">
   <title>Michelle Kidd</title>
-  <link rel="stylesheet" type="text/css" href="floats.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
+	<body>
 
-  
-</body>
+		<header>
+			<nav class="topnav">
+				<h1>Michelle Kidd</h1>
+				<ul id="links">
+					<li>
+						<a href="contact.html" id="contact">Contact</a>
+					</li>
+
+					<li>
+						<a href="portfolio.html" id="port">Portfolio</a>
+					</li>
+
+					<li>
+						<a href="index.html" id="about">About</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="body">
+			<h2>Contact</h2>
+			<div class="container">
+  				<form action="/action_page.php">
+
+	   				<label for="fname">Name</label>
+	    			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+	    			<label for="lname">Email</label>
+	    			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+	    			<label for="subject">Message</label>
+	    			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+	   				 <input type="submit" value="Submit">
+
+  				</form>
+			</div>
+		</div>
+
+		<div class="social">
+			<h3>Connect with me</h3>
+			
+			<a href="https://www.linkedin.com/in/michelle-kidd/">
+			<img src="assets/images/linked.png" alt="Linkedin">
+			</a>
+
+			<a href="https://github.com/Michelle-K">
+			<img src="assets/images/git.png" alt="Github">
+			</a>
+
+			<a href="https://stackoverflow.com/users/7995104/michelle-k">
+			<img src="assets/images/Stack.png" alt="Stack Overflow">
+			</a>
+
+			<a href="https://www.instagram.com/miche4short/">
+			<img src="assets/images/pin.png" alt="Instagram">
+			</a>
+		</div>
+
+		<footer>
+			<h6>&copy; Copyright 2017 Michelle Kidd</h6>
+		</footer>
+	  
+	</body>
 
 </html>
+
